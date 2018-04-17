@@ -114,7 +114,7 @@ module RubyXL
     define_attribute(:verticalCentered,   :bool, :default => false)
     define_attribute(:headings,           :bool, :default => false)
     define_attribute(:gridLines,          :bool, :default => false)
-    define_attribute(:gridLinesSet,       :bool, :default => true)
+    define_attribute(:gridLinesSet,       :bool, :default => false)
     define_element_name 'printOptions'
   end
 
