@@ -580,7 +580,7 @@ module RubyXL
   class WorksheetView < OOXMLObject
     define_attribute(:windowProtection,         :bool, :default => false)
     define_attribute(:showFormulas,             :bool, :default => false)
-    define_attribute(:showGridLines,            :bool, :default => true)
+    define_attribute(:showGridLines,            :bool, :default => false)
     define_attribute(:showRowColHeaders,        :bool, :default => true)
     define_attribute(:showZeros,                :bool, :default => true)
     define_attribute(:rightToLeft,              :bool, :default => false)
